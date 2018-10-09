@@ -257,7 +257,6 @@ body{width:100%;height: 100%;box-sizing: border-box;}
 		font-family: 'MicrosoftYaHei';
 		font-size:14px;
 		color:rgb(255,255,255);
-		position:;
 	}
 }
 </style>
@@ -379,8 +378,8 @@ body{width:100%;height: 100%;box-sizing: border-box;}
 					<div class="more">
 							<a href="">查看更多</a>
 					</div>
-				</div>
-    	</div>
+				</div>		
+			</div>
 			<div class="footer" style='clear:both'>
 				<div class="content">
 					<div class="contact container">
@@ -399,7 +398,7 @@ body{width:100%;height: 100%;box-sizing: border-box;}
 					<div class="wechat">二维码</div>
 				</div>
 				<div class="right">
-					<p>COPYRIGHT &copy 2018 APPLE INC.保留所有权利. 京公安网备 11010502008968 京ICP10214630</p>
+					<p>COPYRIGHT © 2018 APPLE INC.保留所有权利. 京公安网备 11010502008968 京ICP10214630</p>
 				</div>
 			</div>
 	</div>
