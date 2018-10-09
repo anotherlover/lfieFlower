@@ -135,6 +135,10 @@ body{width:100%;height: 100%;box-sizing: border-box;}
 					min-height:200px;
 					position: relative;
 					text-align:center;
+					img{
+						width: 136px;
+						height:136px;
+					}
 					p{
 						font-size:14px;
 						display: block;
@@ -142,7 +146,10 @@ body{width:100%;height: 100%;box-sizing: border-box;}
 						margin-bottom:30px;
 					}
 					span{
+						display: block;
 						font-size:12px;
+						height: 34px;
+						// line-height: 34px;
 					}
 				}
 			}
@@ -199,8 +206,59 @@ body{width:100%;height: 100%;box-sizing: border-box;}
 	}
 }
 .footer{
-	height:330px;
+	height:360px;
 	background: url('../assets/img/dibu.png');
+	.content{
+		// height: 150px;
+		height:320px;
+		padding-top:110px;
+		position: relative;
+		.container{
+			text-align: left;
+			min-width: 350px;
+			font-family: 'MicrosoftYaHei';
+			color:rgb(255,255,255);
+			.title{
+				width:160px;
+				display:block;
+				font-size:18px;
+				text-align: left;
+				border-bottom:2px solid rgb(255,255,255);
+			}
+			.t{
+				display:block;
+				font-size:14px;
+				margin-top:15px;
+			}
+			
+		}
+		.contact{
+			position:absolute;
+			left: 167px;
+		}
+		.productHelp{
+			position:absolute;
+			left:462px;
+		}
+		.wechat{
+			width: 150px;
+			height:150px;
+			font-size:20px;
+			position:absolute;
+			right:170px;
+			background: lightgreen;
+			text-align: center;
+			line-height: 150px;
+
+		}
+	}
+	.right{
+		margin:0 auto;
+		font-family: 'MicrosoftYaHei';
+		font-size:14px;
+		color:rgb(255,255,255);
+		position:;
+	}
 }
 </style>
 <template>
@@ -262,6 +320,7 @@ body{width:100%;height: 100%;box-sizing: border-box;}
 						<img src="../assets/img/02.png" alt="">
 						<div class="advantage-content">
 							<div class="container a">
+								<!-- <div class="adv"></div> -->
 								<img src="../assets/img/1.png" alt="">
 								<p>极速搭建 周期更短</p>
 								<span>我们有一个成熟的团队随时等候你的唤醒 下单后即可根据需求完成相应任务</span>
@@ -274,7 +333,7 @@ body{width:100%;height: 100%;box-sizing: border-box;}
 							<div class="container a ">
 								<img src="../assets/img/3.png" alt="">
 								<p>定位全国</p>
-								<span>我们的服务范围涉及全国各个城市</span>
+								<span>&#12288; &#12288; &#12288; &#12288;我们的服务范围涉及全国&#12288; &#12288; &#12288; &#12288;  </span>
 							</div>
 							<div class="container">
 									<img src="../assets/img/4.png" alt="">
@@ -322,7 +381,27 @@ body{width:100%;height: 100%;box-sizing: border-box;}
 					</div>
 				</div>
     	</div>
-			<div class="footer" style='clear:both'>footer</div>
+			<div class="footer" style='clear:both'>
+				<div class="content">
+					<div class="contact container">
+						<p class="title">联系我们</p>
+						<p class="t"> TEL:15730661502</p>
+						<p class="t">EMAIL:1035381826@qq.com</p>
+						<p class="t">ADD:重庆市观音桥1号</p>
+					</div>
+					<div class="productHelp container">
+						<p class="title">产品帮助</p>
+						<p class="t">新手帮助</p>
+						<p class="t">疑问解答</p>
+						<p class="t">产品案例</p>
+					</div>
+					<!-- 二维码 -->
+					<div class="wechat">二维码</div>
+				</div>
+				<div class="right">
+					<p>COPYRIGHT &copy 2018 APPLE INC.保留所有权利. 京公安网备 11010502008968 京ICP10214630</p>
+				</div>
+			</div>
 	</div>
 </template>
 <script>
